@@ -23,12 +23,12 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-
 	"text/template"
 
-	"github.com/mgruener/iso20022tpl/internal/iso20022"
 	"github.com/spf13/cobra"
 	"sigs.k8s.io/yaml"
+
+	"github.com/teghnet/iso20022"
 )
 
 func newTemplateGenericCmd(c *Cli) *cobra.Command {
